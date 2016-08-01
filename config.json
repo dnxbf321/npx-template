@@ -1,0 +1,29 @@
+{
+  "ftp": {
+    "host": "10.0.0.10",
+    "port": 22,
+    "username": "root",
+    "password": "password",
+    "remotePath": "/home/frontend/workspace/npx-template",
+    "patterns": null,
+    "keepFinder": true
+  },
+  "jsdoc": false,
+  "postcss": {},
+  "default": {
+    "client": {
+      "port": 9000,
+      "publicPath": "http://127.0.0.1:9000"
+    }
+  },
+  "experiment": {
+    "client": {
+      "publicPath": "http://exp.website.com"
+    }
+  },
+  "production": {
+    "client": {
+      "publicPath": "http://prod.website.com"
+    }
+  }
+}
