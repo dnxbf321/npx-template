@@ -1,7 +1,7 @@
 {
   "name": "npx-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "official template for npx",
   "main": "index.js",
   "scripts": {
     "dev": "npm-run-all pre asset image babel-asset-dev --parallel serve-client",
@@ -25,7 +25,7 @@
     "upload": "npx upload",
     "clean": "npx clean"
   },
-  "author": "",
+  "author": "Jason Deng",
   "license": "MIT",
   "dependencies": {
   },
