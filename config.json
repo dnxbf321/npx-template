@@ -5,8 +5,8 @@
     "username": "root",
     "password": "password",
     "remotePath": "/home/frontend/workspace/npx-template",
-    "patterns": null,
-    "keepFinder": true
+    "patterns": ["client/dist"],
+    "keepFinder": false
   },
   "jsdoc": false,
   "postcss": {},
