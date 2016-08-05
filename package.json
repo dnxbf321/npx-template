@@ -27,9 +27,8 @@
   },
   "author": "Jason Deng",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "deng-npx": "*"
+    "npm-run-all": "^2.3.0"
   }
 }
