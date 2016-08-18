@@ -1,6 +1,6 @@
 {
   "name": "npx-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "official template for npx",
   "main": "index.js",
   "scripts": {

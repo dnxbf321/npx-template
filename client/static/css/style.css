@@ -1,3 +1,4 @@
+/* postcss-easy-import 处理 import url，注意实际是引用 base/_index.css */
 @import 'base/index';
 
 html {
@@ -8,6 +9,7 @@ html {
 }
 
 .flex {
+  /* autoprefixer 自动添加浏览器厂商前缀 */
   display: flex;
   .item {
     flex: 1;
@@ -19,5 +21,19 @@ html {
 }
 
 body {
+  width: 400px;
+  margin: 20px auto;
+
+  /* postcss-assets 插件自动处理图片引用的路径，这是推荐写法。当然你也可以使用传统相对路径的写法 */
   background: resolve(cover.png);
+}
+
+/* .norem 内的 px 不会被 postcss-pxtorem 插件转换成 rem */
+.norem {
+  font-size: 30px;
+
+  width: 5px;
+  body {
+    width: 20px;
+  }
 }
