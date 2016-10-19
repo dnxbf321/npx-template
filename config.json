@@ -13,7 +13,7 @@
   "postcss": {},
   "default": {
     "client": {
-      "port": 9000,
+      "port": 9010,
       "publicPath": "http://127.0.0.1:9000"
     }
   },
