@@ -1,5 +1,2 @@
-var n = server
-var m = version
-
-console.log(m)
-console.log(n.publicPath)
+console.log(version)
+console.log(client.publicPath)
