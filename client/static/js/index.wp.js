@@ -1,1 +1,1 @@
-import '../css/style.css'
+console.log(client.publicPath)
