@@ -15,14 +15,14 @@
   "author": "Jason Deng",
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.2.1"
+    "vue": "^2.3.3"
   },
   "devDependencies": {
-    "css-loader": "^0.26.2",
+    "css-loader": "^0.28.1",
     "vue-hot-reload-api": "^2.0.11",
     "vue-html-loader": "^1.2.4",
-    "vue-loader": "^11.1.4",
-    "vue-style-loader": "^2.0.3",
+    "vue-loader": "^12.1.0",
+    "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.2.1"
   }
 }
