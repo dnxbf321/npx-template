@@ -12,6 +12,8 @@
   "jsdoc": false,
   "postcss": {},
   "default": {
+    "debug": false,
+    "array1": ["arr1", "arr2"],
     "client": {
       "port": 9010,
       "publicPath": "http://127.0.0.1:9000"
@@ -23,6 +25,8 @@
     }
   },
   "production": {
+    "debug": true,
+    "array1": ["arr3"],
     "client": {
       "publicPath": "http://prod.website.com"
     }
