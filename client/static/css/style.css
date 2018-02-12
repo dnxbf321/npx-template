@@ -1,39 +1,19 @@
 /* postcss-easy-import 处理 import url，注意实际是引用 base/_index.css */
 @import 'base/index';
 
-html {
-  font-size: 16px;
-
-  color: #000;
-  background: #fff;
-}
-
 .flex {
-  /* autoprefixer 自动添加浏览器厂商前缀 */
-  display: flex;
+  display: flex; /* autoprefixer 自动添加浏览器厂商前缀 */
   .item {
     flex: 1;
   }
 }
 
-.t {
-  font-size: 16px;
-}
-
 body {
-  width: 400px;
-  margin: 20px auto;
+  font-size: 20px; /* 被转换成 rem */
+
+  width: 400PX; /* PX（大写）不会被转换，只有 px 会被转换成 rem */
+  margin: auto;
 
   /* postcss-assets 插件自动处理图片引用的路径，这是推荐写法。当然你也可以使用传统相对路径的写法 */
   background: resolve(cover.png);
-}
-
-/* .norem 内的 px 不会被 postcss-pxtorem 插件转换成 rem */
-.norem {
-  font-size: 30px;
-
-  width: 5px;
-  body {
-    width: 20px;
-  }
 }

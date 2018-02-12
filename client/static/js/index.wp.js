@@ -1,13 +1,13 @@
 import '../css/_test.css'
 
-console.log(client, typeof client)
-console.log(client.publicPath)
-console.log(debug, typeof debug)
-console.log(array1)
+console.log('client = ', client, typeof client)
+console.log('client.publicPath = ', client.publicPath)
+console.log('debug = ' + debug, typeof debug)
+console.log('array1 = ', array1)
 
 let arr = [1, 2, 3]
 let copyArr = [...arr]
-console.log(copyArr)
+console.log('test es6 syntax: ', copyArr)
 
 let filed = {
   a: 1,
@@ -16,4 +16,4 @@ let filed = {
 let obj = {
   ...filed
 }
-console.log(obj)
+console.log('test es6 syntax: ', obj)
